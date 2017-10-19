@@ -1,4 +1,6 @@
 // Select color input
+
+
 // Select size input
 
 // When size is submitted by the user, call makeGrid()
@@ -17,7 +19,7 @@ function makeGrid() {
       for(let y=0;y < wid;y++){
         $('#pixel_canvas').append('<tr></tr>');
         for(let i=0;i<hei;i++){
-        $('<tr>').last().append('<td></td>');
+        $('tr').last().append('<td></td>');
         }
     }
 }
