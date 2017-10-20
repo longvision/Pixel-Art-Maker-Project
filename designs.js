@@ -19,7 +19,7 @@ function makeGrid() {
       for(let y=0;y < wid;y++){
         $('#pixel_canvas').append('<tr></tr>');
         for(let i=0;i<hei;i++){
-        $('tr').last().append('<td></td>');
+        $('tr').last().append('<td class="cells"></td>');
         }
     }
 }
@@ -29,3 +29,16 @@ $('#sizePicker').submit(function(event){
   makeGrid();
 
 });
+
+
+$("#pixel_canvas").mousedown(function() {
+  if (true){
+    $('tr').css("background-color", "black");
+  }
+});
+
+$("#pixel_canvas").mousedown(function() {
+  if ($('tr').empty():true) {
+    $('tr').empty();
+  }
+  });
