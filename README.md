@@ -1,16 +1,12 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+To get started, open `index.html` and then type the number of columns and rows that you want your grid to have.
+Those fields are required to be filled.
+Click in 'Submit'
+Hover the mouse above the grid to paint any art you want to create.
+You can reset the grid whenever you want to clean the art you´ve drawn, by clicking in 'Canvas Reset' button.
 
 ## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository was created by Ricardo Naoki Horiguchi, for the Udacity Front End Development Nanodregree.
